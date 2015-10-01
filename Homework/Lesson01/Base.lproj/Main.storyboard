@@ -35,7 +35,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="C4L-lP-ice" kind="presentation" id="vaH-4n-GzV"/>
+                                    <segue destination="CG5-J7-gJU" kind="presentation" id="vaH-4n-GzV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvt-Rj-46j">
@@ -125,7 +125,7 @@
                     <navigationItem key="navigationItem" id="0eb-el-xnE">
                         <barButtonItem key="rightBarButtonItem" title="Info" id="uso-cZ-dET">
                             <connections>
-                                <segue destination="C4L-lP-ice" kind="show" id="I1i-in-2KO"/>
+                                <segue destination="CG5-J7-gJU" kind="show" id="I1i-in-2KO"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -166,11 +166,19 @@
                         <animations/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Bio" id="6Yi-Rc-BIf">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="UyY-fe-Z7y">
+                            <connections>
+                                <segue destination="KYv-zh-AAO" kind="unwind" unwindAction="unwindSegue:" id="QNU-7e-05T"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NTt-6a-QlP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="KYv-zh-AAO" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1925.5" y="1255.5"/>
+            <point key="canvasLocation" x="-1338.5" y="1255.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MFx-ZW-Iww">
@@ -242,12 +250,31 @@
             </objects>
             <point key="canvasLocation" x="-2447.5" y="480.5"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8Of-Xv-HIH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CG5-J7-gJU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jtm-uM-3KL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="C4L-lP-ice" kind="relationship" relationship="rootViewController" id="Yyj-yL-HRz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FeV-Yy-EB0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1925.5" y="1255.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="scott fede kitchen.png" width="1220" height="1176"/>
         <image name="under bk bridge.jpg" width="1936" height="2592"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="I1i-in-2KO"/>
+        <segue reference="vaH-4n-GzV"/>
     </inferredMetricsTieBreakers>
 </document>
