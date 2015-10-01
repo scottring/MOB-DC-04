@@ -12,6 +12,8 @@
 		5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68019D8CFFE0082F2DE /* Main.storyboard */; };
 		5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68319D8CFFE0082F2DE /* Images.xcassets */; };
 		5D06C69319D8CFFE0082F2DE /* Lesson01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */; };
+		D223DBB81BBCD4FC000C7A23 /* scott fede kitchen.png in Resources */ = {isa = PBXBuildFile; fileRef = D223DBB71BBCD4FC000C7A23 /* scott fede kitchen.png */; settings = {ASSET_TAGS = (); }; };
+		D223DBBB1BBCDCA1000C7A23 /* under bk bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D223DBBA1BBCDCA1000C7A23 /* under bk bridge.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		5D06C68C19D8CFFE0082F2DE /* Lesson01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D06C69119D8CFFE0082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson01Tests.swift; sourceTree = "<group>"; };
+		D223DBB71BBCD4FC000C7A23 /* scott fede kitchen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scott fede kitchen.png"; sourceTree = "<group>"; };
+		D223DBBA1BBCDCA1000C7A23 /* under bk bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "under bk bridge.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		5D06C67919D8CFFE0082F2DE /* Lesson01 */ = {
 			isa = PBXGroup;
 			children = (
+				D223DBB91BBCD50B000C7A23 /* Images */,
 				5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */,
 				5D06C67E19D8CFFE0082F2DE /* ViewController.swift */,
 				5D06C68019D8CFFE0082F2DE /* Main.storyboard */,
@@ -107,6 +112,15 @@
 				5D06C69119D8CFFE0082F2DE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D223DBB91BBCD50B000C7A23 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D223DBBA1BBCDCA1000C7A23 /* under bk bridge.jpg */,
+				D223DBB71BBCD4FC000C7A23 /* scott fede kitchen.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D223DBB81BBCD4FC000C7A23 /* scott fede kitchen.png in Resources */,
 				5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */,
+				D223DBBB1BBCDCA1000C7A23 /* under bk bridge.jpg in Resources */,
 				5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
