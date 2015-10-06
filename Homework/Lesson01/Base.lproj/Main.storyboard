@@ -80,8 +80,6 @@
         <!--Goals-->
         <scene sceneID="jHe-aH-xg3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XW5-d2-TXD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <barButtonItem title="Item" id="5EZ-uY-tvH"/>
                 <viewController title="Goals" id="70H-yT-U3v" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Lsd-EA-JT0"/>
@@ -132,6 +130,8 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XW5-d2-TXD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <barButtonItem title="Item" id="5EZ-uY-tvH"/>
             </objects>
             <point key="canvasLocation" x="-1402.5" y="480.5"/>
         </scene>
