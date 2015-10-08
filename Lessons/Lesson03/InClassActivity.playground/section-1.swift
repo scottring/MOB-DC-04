@@ -8,7 +8,10 @@ var name = "Scott"
 var age = 55
 
 // TODO: Print "Hello {whatever the value of name is}, you are {whatever the value of age is} years old!"
+<<<<<<< HEAD
 print("Hello \(name), you are \(age) years old!")
+=======
+>>>>>>> ga-students/master
 
 // TODO: Print “You can drink” below the above text if the user is above 21. If they are above 18, print “you can vote”. If they are above 16, print “You can drive”
 if age > 21 {
@@ -44,11 +47,15 @@ let number = 4
 
 // TODO: Print whether the above number is even
 
+<<<<<<< HEAD
 if number % 2 == 1 {
     print("even")
 }
 
 // TODO: Print out "Hello {whatever the value of name is}, your name is {however long the string name is} characters long!. Use countElements()
+=======
+// TODO: Print out "Hello {whatever the value of name is}, your name is {however long the string name is} characters long!. Use string.characters.count
+>>>>>>> ga-students/master
 
 print("Hello \(name), your name is \(name.characters.count) characters long")
 
