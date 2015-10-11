@@ -62,11 +62,20 @@ Final note: don't be afraid to have long function names, they'll help you in big
 // Create a function knockknock that just prints the line "Who's there?"
 // This function has no parameters nor a return value
 
+func knockknock () {
+    print("Who's there?")
+}
 
 // That was fun! Let's joke around and knock a few times more
 // Write a function knockMultipleTimes that accepts one paramter
 // That parameter will be an int that let's us specify how many times we want to knock
 // Within the function we have a loop that runs x ammount of times that calls the knock knock function
+
+func knockMultipleTimes(knocks: Int) {
+    for _ in 1...knocks {
+        print(knockknock())
+    }
+}
 
 
 // HAHAHA, okay let's answer before the person behind the door goes nuts!
@@ -74,6 +83,9 @@ Final note: don't be afraid to have long function names, they'll help you in big
 // Parameter one will be a firstname (String), and parameter two will be the homeCountry (also String)
 // The function will just print "It's me, {firstname}, from {homeCountry}"
 
+func replyWhoIsHere(firstName: String, homeCountry: String) {
+    print("It's me, \(firstName) from \(homeCountry)")
+}
 
 // Cool that worked! Let's say we want to reply with our age instead of home country!
 // We'll create a function calculateAge that accepts one parameter that will be yearOfBirth (Int)
@@ -89,16 +101,40 @@ let age = currentYear - yearOfBirth
 // Return the age at the end of the function
 
 
+func calculateAge(yearOfBirth: Int) -> Int {
+    let currentDate = NSDate()
+    let currentCalendar = NSCalendar.currentCalendar()
+    let currentYear = 2015
+    let age = currentYear - yearOfBirth
+    return age
+}
+calculateAge(1993)
+
 // Create a function tellNameAndAge that has two parameters
 // Parameter one is the name (String), parameter two is the yearOfBirth(Int)
 // The function will have one var: age, you will call the calculateAge function and store the return value in that var
 // After that you will print a line that states "{name}, my age is {age}", where {age} is the var of course!
 
+func tellNameAndAge (name: String, yearOfBirth: Int) -> Int {
+    var age = calculateAge(1993)
+    return age
+}
+tellNameAndAge("Scott", yearOfBirth: 1993)
+
 
 // Call knock knock
 
+knockknock()
+
+
 // Call knockMultipleTimes
+
+knockMultipleTimes(7)
+
 
 // Call replyWhoIsHere
 
+replyWhoIsHere("scott", homeCountry: "USA")
+
 // Call tellNameAndAge
+
