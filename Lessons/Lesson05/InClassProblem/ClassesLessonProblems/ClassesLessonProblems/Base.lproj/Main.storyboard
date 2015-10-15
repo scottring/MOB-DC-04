@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1TI-YI-Z6p">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -55,6 +56,7 @@
                         <viewControllerLayoutGuide type="bottom" id="g0J-I8-ABe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XGd-Yo-Yt5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Player 1 Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6X8-Nf-4MD">
@@ -106,6 +108,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="6X8-Nf-4MD" firstAttribute="top" secondItem="BgL-YZ-1Cr" secondAttribute="bottom" constant="56" id="2We-bm-xB3"/>
                             <constraint firstItem="LdL-Ar-61I" firstAttribute="leading" secondItem="XGd-Yo-Yt5" secondAttribute="leadingMargin" id="4sa-VS-xOv"/>
                             <constraint firstItem="9KY-dG-PeD" firstAttribute="trailing" secondItem="XGd-Yo-Yt5" secondAttribute="trailingMargin" id="8Hp-nO-ZfH"/>
                             <constraint firstItem="CLd-Xa-ksE" firstAttribute="top" secondItem="9KY-dG-PeD" secondAttribute="bottom" constant="47" id="FAC-rH-QGR"/>
@@ -116,7 +119,6 @@
                             <constraint firstItem="6X8-Nf-4MD" firstAttribute="leading" secondItem="XGd-Yo-Yt5" secondAttribute="leadingMargin" id="Zh5-j6-yjV"/>
                             <constraint firstItem="CLd-Xa-ksE" firstAttribute="leading" secondItem="XGd-Yo-Yt5" secondAttribute="leadingMargin" id="n8q-QE-K5U"/>
                             <constraint firstItem="6X8-Nf-4MD" firstAttribute="trailing" secondItem="XGd-Yo-Yt5" secondAttribute="trailingMargin" id="ogV-89-cvc"/>
-                            <constraint firstItem="6X8-Nf-4MD" firstAttribute="top" secondItem="BgL-YZ-1Cr" secondAttribute="bottom" constant="56" id="ori-xO-jmC"/>
                             <constraint firstItem="9KY-dG-PeD" firstAttribute="leading" secondItem="XGd-Yo-Yt5" secondAttribute="leadingMargin" id="u0z-p8-cbv"/>
                         </constraints>
                         <variation key="default">
@@ -131,7 +133,6 @@
                             <mask key="constraints">
                                 <exclude reference="Zh5-j6-yjV"/>
                                 <exclude reference="ogV-89-cvc"/>
-                                <exclude reference="ori-xO-jmC"/>
                                 <exclude reference="8Hp-nO-ZfH"/>
                                 <exclude reference="Ikv-hF-ogH"/>
                                 <exclude reference="u0z-p8-cbv"/>
@@ -155,7 +156,6 @@
                             <mask key="constraints">
                                 <include reference="Zh5-j6-yjV"/>
                                 <include reference="ogV-89-cvc"/>
-                                <include reference="ori-xO-jmC"/>
                                 <include reference="8Hp-nO-ZfH"/>
                                 <include reference="Ikv-hF-ogH"/>
                                 <include reference="u0z-p8-cbv"/>
