@@ -16,6 +16,9 @@ struct Player  {
 //    var height: Float
 
 }
-
-
+// Initializer: what the user inputs when creating an instance of the class, and/or setting the class defaults
+init(name: String, age: Int) {
+    self.name = name
+    self.age = age
+}
 

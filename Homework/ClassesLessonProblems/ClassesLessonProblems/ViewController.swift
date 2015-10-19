@@ -48,6 +48,8 @@ class ViewController: UIViewController {
    @IBAction func playButton(sender: AnyObject) {
     var player1 = Player(name: player1Name.text!, age: Int(player1Age.text!)!)
     var player2 = Player(name: player2Name.text!, age: Int(player2Age.text!)!)
+    
+    var results = 
     }
 
     
